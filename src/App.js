@@ -7,9 +7,10 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="nes-container">
+    <div >
       <Navbar />
       <Home />
+      <br/>
       <Menu />
       <About />
       <Contact />

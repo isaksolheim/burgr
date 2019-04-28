@@ -2,9 +2,18 @@ import React from 'react';
 
 function Home() {
   return(
-    <div className="nes-container with-title">
-      <p className="title">Home</p>
-      <img src="https://phandroid.com/wp-content/uploads/2015/07/8-bit-landscape-2.jpg" alt="town" width="100%"/>
+    <div className="parallax">
+      <div className="slogan">
+        THE ONLY BURGR IN TOWN
+      </div>
+      <div className="title">
+        BURGR
+      </div>
+      <div className="button-wrapper">
+      <button type="button" className="nes-btn">
+        SEE MENU
+      </button>
+      </div>
     </div>
   );
 }

@@ -4,16 +4,16 @@ function Contact() {
   return(
     <div className="nes-container with-title">
       <p className="title">Contact</p>
-      <div className="contact">
-        <div className="visit">
-          <i class="nes-logo"/>
+      <div className="contact-container">
+        <div className="contact-category">
+          <i className="nes-logo"/>
           <div className="contact-title">
             Visit
           </div>
           <p>Skippergata 6A, 9008 Tromsø</p>
         </div>  
-        <div className="contact-us">
-          <i class="snes-logo"/>
+        <div className="contact-category">
+          <i className="snes-logo"/>
           <div className="contact-title">
             Contact
           </div>
