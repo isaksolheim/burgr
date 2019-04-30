@@ -2,7 +2,7 @@ import React from 'react';
 
 function Contact() {
   return(
-    <div className="nes-container with-title">
+    <div className="nes-container with-title" id="contact">
       <p className="title">Contact</p>
       <div className="contact-container">
         <div className="contact-category">
