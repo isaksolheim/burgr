@@ -17,11 +17,13 @@ function About() {
           Opening hours:
         <br/>
         <br />
+        </p>
+        <div className="hours">
           Tuesday – Saturday: 12:00 – 22:30
         <br />
         <br />
           Sunday – Monday: 12:00 – 19:30
-        </p>
+        </div>
         
       </div>
     </div>

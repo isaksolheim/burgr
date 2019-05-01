@@ -1,6 +1,6 @@
 .parallax {
   background-image: url('http://hdqwalls.com/wallpapers/8-bit-pixel-art-city-2o.jpg');
-  min-height: 50vh;
+  min-height: 80vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -8,12 +8,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  text-align: center;
-
   .slogan {
     font-size: 20px;
-    position: absolute;
-    top: calc(30% - 20px);
     text-align: center;
     width: 100%;
   }
@@ -22,15 +18,11 @@
     font-weight: 900;
     font-size: 40px;
     color: black;
-    position: absolute;
-    top: calc(40% - 40px);
     text-align: center;
     width: 100%;
   }
 
   .button-wrapper {
-    position: absolute;
-    top: calc(48% - 20px);
     text-align: center;
     width: 100%;
   }

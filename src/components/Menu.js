@@ -21,6 +21,8 @@ class Menu extends React.Component {
         <p className="title">Menu</p>
         <div className="img-container">
           <img onClick={() => this.viewImage('burgers')} id="burgers" src="burgr-2018-meny-burgers.jpg" alt="burgr menu" />
+          <br />
+          <br />
           <img onClick={() => this.viewImage('extras')} id="extras" src="burgr-2018-meny-extras.jpg" alt="extas menu" />
         </div>
         <div id="modal" className="modal">
