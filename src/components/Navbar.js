@@ -5,18 +5,26 @@ class Navbar extends React.Component {
   dropdown = () => {
     var navbar = document.getElementById('navbar');
     if (navbar.className === 'navbar') {
-      console.log('ere');
       navbar.className += ' responsive';
     } else {
       navbar.className = 'navbar';
     }
+    var button = document.getElementById('nav-button');
+    if (button.innerHTML === '<i class="fa fa-bars"></i>') {
+      button.innerHTML = '<i class="fa fa-times"></i>';
+    } else {
+      button.innerHTML = '<i class="fa fa-bars"></i>';
+    }
   }
+
 
   render() {
     return(
       <div className="navbar" id="navbar">
         <img src="logo.jpg" alt="logo" className="nav-logo" />
-        <button onClick={this.dropdown}><i className="fa fa-bars"/>click</button>
+        <button onClick={this.dropdown} className="nav-button" id="nav-button">
+          <i className="fa fa-bars"/>
+        </button>
         <Link 
           activeClass="active"
           to="home"

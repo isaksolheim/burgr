@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 function Home() {
   return(
@@ -10,9 +11,17 @@ function Home() {
         BURGR
       </div>
       <div className="button-wrapper">
-      <button type="button" className="nes-btn">
-        SEE MENU
-      </button>
+      <Link 
+          activeClass="active"
+          to="menu"
+          spy={true}
+          smooth={true}
+          offset={-10}
+          duration={400}>
+        <button type="button" className="nes-btn">
+          SEE MENU
+        </button>
+      </Link>
       </div>
     </div>
   );

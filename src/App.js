@@ -5,16 +5,21 @@ import Menu from './components/Menu';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import BonusSection from './components/BonusSection';
 
 function App() {
   return (
     <div >
       <Navbar />
       <Home />
-      <br/>
+      <br />
       <Menu />
       <br />
+      <BonusSection id="1" />
+      <br />
       <About />
+      <br />
+      <BonusSection id="2" />
       <br />
       <Contact />
       <br />
