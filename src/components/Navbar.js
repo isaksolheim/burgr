@@ -26,6 +26,7 @@ class Navbar extends React.Component {
           <button onClick={this.dropdown} className="nav-button" id="nav-button">
             <i className="fa fa-bars"/>
           </button>
+          <div className="nav-items">
           <Link 
             activeClass="active"
             to="home"
@@ -62,6 +63,7 @@ class Navbar extends React.Component {
             duration={400}>
               <div className="nav-item">Contact Us</div>
           </Link>
+          </div>
           <div className="nav-button"></div>
         </div>
         <div className="slogan">

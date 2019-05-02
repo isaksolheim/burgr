@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
   return(
-    <p>created by isaks.io</p>
+    <p class="footer">created by isaks.io</p>
   );
 }
 

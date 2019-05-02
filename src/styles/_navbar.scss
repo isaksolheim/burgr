@@ -5,12 +5,12 @@
   margin-bottom: 6vh;
 
   .nav-logo {
+    float: left;
     width: 100x;
     height: 100px;
   }
 
   .nav-item {
-    border-bottom: 1px solid black;
     float: left;
     display: block;
     color: black;
@@ -43,7 +43,14 @@
 @media screen and (max-width: 600px) {
   .navbar.responsive {
     position: relative;
+    .nav-logo {
+      float: none;
+    }
+    .nav-items {
+      float: none;
+    }
     .nav-item {
+      border-bottom: 1px solid black;
       float: none;
       display: block;
       text-align: left;
