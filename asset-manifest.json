@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/burgr/static/css/main.c45e3be6.chunk.css",
+    "main.js": "/burgr/static/js/main.fbdd59d2.chunk.js",
+    "main.js.map": "/burgr/static/js/main.fbdd59d2.chunk.js.map",
+    "runtime~main.js": "/burgr/static/js/runtime~main.c5f89fb0.js",
+    "runtime~main.js.map": "/burgr/static/js/runtime~main.c5f89fb0.js.map",
+    "static/js/2.faa5270a.chunk.js": "/burgr/static/js/2.faa5270a.chunk.js",
+    "static/js/2.faa5270a.chunk.js.map": "/burgr/static/js/2.faa5270a.chunk.js.map",
+    "index.html": "/burgr/index.html",
+    "precache-manifest.c31c1cbd77b89d6469ff5490036e2d1a.js": "/burgr/precache-manifest.c31c1cbd77b89d6469ff5490036e2d1a.js",
+    "service-worker.js": "/burgr/service-worker.js",
+    "static/css/main.c45e3be6.chunk.css.map": "/burgr/static/css/main.c45e3be6.chunk.css.map"
+  }
+}
