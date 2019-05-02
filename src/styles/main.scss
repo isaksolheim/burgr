@@ -1,17 +1,4 @@
-html {
-  width: 100%
-}
-
 @import '../styles/extra';
-
-.main-container {
-  @include desktop {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  }
-}
-
 @import '../styles/navbar';
 @import '../styles/home';
 @import '../styles/menu';
@@ -20,3 +7,30 @@ html {
 @import '../styles/footer';
 @import '../styles/bonusSection';
 @import '../styles//layout';
+
+html {
+  width: 100%
+}
+
+.content {
+  @include desktop {
+    background-image: url('http://hdqwalls.com/wallpapers/8-bit-pixel-art-city-2o.jpg');
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.main-container {
+  @include desktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    margin: 0 auto;
+    max-width: 1500px;
+    background-color: white;
+  }
+}
+

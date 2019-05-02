@@ -3,9 +3,8 @@ import React from 'react';
 function BonusSection(props) {
   if (props.id === '1') {
     return(
-      <div className="bonus-container bonus1">
+      <div className="nes-container bonus-container bonus1">
         <div>
-          <img src="http://www.burgr.no/wp-content/uploads/2018/03/28741153_1709890542382542_1926205011_n.jpg" alt="burger" />
         </div>
         <div>
           <div className="bonus-text">
@@ -36,17 +35,11 @@ function BonusSection(props) {
             </section>
           </div>
         </div>
-        { /*
-        <img src="http://www.burgr.no/wp-content/uploads/2018/03/28811018_1709851409053122_990895645_o.jpg" alt="inside" />
-        */ }
       </div>
     );
   } else if (props.id === '2') {
     return(
-      <div className="bonus-container bonus2">
-        <img src="http://www.burgr.no/wp-content/uploads/2018/03/28721820_1709869545717975_1364282438_n.jpg" alt="gaming" />
-        <br />
-        <br />
+      <div className="nes-container bonus-container bonus2">
         <div className="bonus-text">
           <h2>
             BURGRS; 

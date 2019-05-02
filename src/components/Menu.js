@@ -17,7 +17,7 @@ class Menu extends React.Component {
   }
   render() {
     return(
-      <div className="nes-container with-title" id="menu">
+      <div className="nes-container with-title menu-container" id="menu">
         <p className="title">Menu</p>
         <div className="img-container">
           <img onClick={() => this.viewImage('burgers')} id="burgers" src="burgr-2018-meny-burgers.jpg" alt="burgr menu" />
