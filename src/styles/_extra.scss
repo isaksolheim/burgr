@@ -1,0 +1,7 @@
+$desktop: 850px;
+
+@mixin desktop {
+  @media (min-width: #{$desktop}) {
+    @content;
+  }
+}

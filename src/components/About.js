@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return(
-    <div className="nes-container with-title" id="about">
+    <div className="nes-container with-title about" id="about">
       <p className="title">About</p>
       <div className="about-container">
         <p>

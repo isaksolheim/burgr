@@ -3,6 +3,16 @@
   img {
     width: 100%;
   }
+
+  @include desktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-width: 400px;
+    }
+  }
 }
 
 .mario-review {

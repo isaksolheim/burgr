@@ -13,13 +13,15 @@ function App() {
       <br />
       <Menu />
       <br />
-      <BonusSection id="1" />
-      <br />
-      <About />
-      <br />
-      <BonusSection id="2" />
-      <br />
-      <Contact />
+      <div className="main-container">
+        <BonusSection id="1" />
+        <br />
+        <About />
+        <br />
+        <BonusSection id="2" />
+        <br />
+        <Contact />
+      </div>
       <br />
       <Footer />
     </div>
