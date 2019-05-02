@@ -1,2 +1,2 @@
 Redesign of http://burgr.no
-->now live at http://www.wickdeeb.github.io/burgr
+->now live at https://wickdeeb.github.io/burgr/
