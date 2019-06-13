@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Menu />
       <div className="main-container">
-        <img id="img1" width="70%" src="http://www.burgr.no/wp-content/uploads/2018/03/28741153_1709890542382542_1926205011_n.jpg" alt="burger" />
+        <img id="img1" width="100%" src="http://www.burgr.no/wp-content/uploads/2018/03/28741153_1709890542382542_1926205011_n.jpg" alt="burger" />
         <BonusSection id="1" />
         <img id="img2" width="100%" src="http://www.burgr.no/wp-content/uploads/2018/03/28811018_1709851409053122_990895645_o.jpg" alt="inside" />
         <About />
